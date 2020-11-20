@@ -19,7 +19,7 @@ Mingoo Seok: ms4415@columbia.edu
 | Input voltage [V] | Vin	| Supply voltage to an LDO (used in dynamic load regulation test) |
 | Output voltage [V] | Vout | Output voltage of an LDO (used in dynamic load regulation test) |
 | Output reference voltage [V] | Vref | The set point of the output voltage of an LDO |
-| Dropout voltage [V] | Vdropout | Voltage drop from input voltage to output voltage (Vdropout = Vin-Vout) |
+| Dropout voltage [V] | Vdropout | Voltage drop from input to output (Vdropout = Vin-Vout) |
 | Voltage droop [V] | Vdroop | Vout's maximum downward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload) |
 | Voltage overshoot [V] | Vovershoot | Vout's maximum upward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload) |
 | Max load current [mA]	| Iload,max	| Maximum load current that an LDO can support under the output voltage error (Verror) constraints |
