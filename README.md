@@ -1,10 +1,10 @@
-# DLDO-survey
-
-Digital Low-Dropout Voltage Regulator Performance Survey Since 2010
-Columbia University
+# Digital Low-Dropout Voltage Regulator Performance Survey, 2010-2020
 
 To analyze the developing trend in digital low-dropout (DLDO), we concluded the benchmark designs from 2010 in this survey. 
 Basing on the reported DLDOs' metrics and their dynamic load regulation test setup, we calculated the CEpeak, PEpeak, three commonly used FoMs and we proposed pC FoM for the convenient of comparison.
+
+
+
 The detailed Definition of each metric and calculation equation are shown as below.
 
 
@@ -13,6 +13,7 @@ Definitions of metrics
 Metric								Commonly-used symbol			Definition
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technology node							-					Fabrication process infomation
+
 Output capacitor capacity [nF]					Cout					Output capacitor capacity
 Active area [mm^2]						-					Total silicon area excluding output capacitor(s) area
 Active & passive area [mm^2]					-					Total silicon area including on-chip output capacitor(s) area (designs with off-chip capacitor are exclueded)
@@ -46,9 +47,6 @@ Load-regulation FoM 4 [pC]					pC-FoM					([Cout*dVout]/dIload+0.5*Tedge)*Iq, sm
 
 
 *Please contact to report any errors:
---------------------------------------------------------------------------------------------------------
-
 Zhaoqing Wang: zw2711@columbia.edu
 Sung Justin Kim: sjk2206@columbia.edu
 Mingoo Seok: ms4415@columbia.edu
-
