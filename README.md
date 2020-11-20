@@ -10,9 +10,9 @@ Zhaoqing Wang: zw2711@columbia.edu
 Sung Justin Kim: sjk2206@columbia.edu  
 Mingoo Seok: ms4415@columbia.edu  
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-Metric								            Commonly-used symbol			Definition
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+Metric								            Symbol			Definition
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 Technology node							      -					                Fabrication process infomation  
 Output capacitor capacity [nF]		Cout            					Output capacitor capacity  
 Active area [mm^2]						-					Total silicon area excluding output capacitor(s) area
