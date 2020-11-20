@@ -11,10 +11,11 @@ Sung Justin Kim: sjk2206@columbia.edu
 Mingoo Seok: ms4415@columbia.edu  
 
 
-Metric								            Symbol			Definition
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-Technology node							      -					                Fabrication process infomation  
-Output capacitor capacity [nF]		Cout            					Output capacitor capacity  
+| Metric | Symbol | Definition |
+|--------|--------|------------|
+| Technology | n/a | Fabrication process node|
+| Output capacitance [nF] | Cout | Output capacitor's capacitance |
+
 Active area [mm^2]						-					Total silicon area excluding output capacitor(s) area
 Active & passive area [mm^2]					-					Total silicon area including on-chip output capacitor(s) area (designs with off-chip capacitor are exclueded)
 Input voltage [V]						Vin					Supply voltage to an LDO (used in dynamic load regulation test)
