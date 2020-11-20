@@ -1,20 +1,20 @@
-# Digital Low-Dropout Voltage Regulator Performance Survey, 2010-2020
+# Digital Low-Dropout Voltage Regulator (DLDO) Survey 
 
-To analyze the developing trend in digital low-dropout (DLDO), we concluded the benchmark designs from 2010 in this survey. 
-Basing on the reported DLDOs' metrics and their dynamic load regulation test setup, we calculated the CEpeak, PEpeak, three commonly used FoMs and we proposed pC FoM for the convenient of comparison.
+The CSV file contains the digital low-dropout voltage regulators (DLDO) published in 2010--2020. It contains the reported and estimated parameters and metrics of each regulator. The paramete/metric definition can be found below. 
 
+For use in publications and presentations please cite this data collection as follows:
+M. Seok, Z. Wang, S. J. Kim, "Digital Low-Dropout Voltage Regulator (DLDO) Survey," [Online]. Available: https://github.com/mgseok/DLDO-survey
 
+Please contact to report any errors:  
+Zhaoqing Wang: zw2711@columbia.edu  
+Sung Justin Kim: sjk2206@columbia.edu  
+Mingoo Seok: ms4415@columbia.edu  
 
-The detailed Definition of each metric and calculation equation are shown as below.
-
-
-Definitions of metrics
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Metric								Commonly-used symbol			Definition
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Technology node							-					Fabrication process infomation
-
-Output capacitor capacity [nF]					Cout					Output capacitor capacity
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Metric								            Commonly-used symbol			Definition
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Technology node							      -					                Fabrication process infomation  
+Output capacitor capacity [nF]		Cout            					Output capacitor capacity  
 Active area [mm^2]						-					Total silicon area excluding output capacitor(s) area
 Active & passive area [mm^2]					-					Total silicon area including on-chip output capacitor(s) area (designs with off-chip capacitor are exclueded)
 Input voltage [V]						Vin					Supply voltage to an LDO (used in dynamic load regulation test)
@@ -46,7 +46,4 @@ Load-regulation FoM 3 [edge-adj ps]				edge-adj ps-FoM				([Cout*dVout]/dIload+0
 Load-regulation FoM 4 [pC]					pC-FoM					([Cout*dVout]/dIload+0.5*Tedge)*Iq, smaller FoM is better
 
 
-*Please contact to report any errors:  
-Zhaoqing Wang: zw2711@columbia.edu  
-Sung Justin Kim: sjk2206@columbia.edu  
-Mingoo Seok: ms4415@columbia.edu  
+
