@@ -14,12 +14,12 @@ Mingoo Seok: ms4415@columbia.edu
 |--------|--------|------------|
 | Technology | n/a | Fabrication process node|
 | Output capacitance [nF] | Cout | Output capacitor's capacitance |
+| Active area [mm^2] | n/a | Total silicon area excluding output capacitor(s) area |
+| Active & passive area [mm^2]	| n/a | Total silicon area including on-chip output capacitor(s) area (designs with off-chip capacitor are exclueded) |
+| Input voltage [V] | Vin	| Supply voltage to an LDO (used in dynamic load regulation test) |
+| Output voltage [V] | Vout | Output voltage of an LDO (used in dynamic load regulation test) |
+| Output reference voltage [V] | Vref | The set point of the output voltage of an LDO |
 
-Active area [mm^2]						-					Total silicon area excluding output capacitor(s) area
-Active & passive area [mm^2]					-					Total silicon area including on-chip output capacitor(s) area (designs with off-chip capacitor are exclueded)
-Input voltage [V]						Vin					Supply voltage to an LDO (used in dynamic load regulation test)
-Output voltage [V]						Vout					Output voltage of an LDO (used in dynamic load regulation test)
-Output reference voltage [V]					Vref					The set point of the output voltage of an LDO
 Dropout voltage [V]						Vdropout				Voltage drop from input voltage to output voltage (Vin-Vout)
 Voltage droop [V]						Vdroop					Vout's maximum downward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload)
 Voltage overshoot [V]						Vovershoot				Vout's maximum upward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload)
