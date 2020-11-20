@@ -1,6 +1,6 @@
 # Digital Low-Dropout Voltage Regulator (DLDO) Survey 
 
-The CSV file contains the digital low-dropout voltage regulators (DLDO) published in 2010--2020. It contains the reported and estimated parameters and metrics of each regulator. The paramete/metric definition can be found in the table below. 
+The Excel file contains the digital low-dropout voltage regulators (DLDO) published in 2010--2020. It contains the reported and estimated parameters and metrics of each regulator. The parameter/metric definition can be found in the table below. 
 
 For use in publications and presentations please cite this data collection as follows:
 M. Seok, Z. Wang, S. J. Kim, "Digital Low-Dropout Voltage Regulator (DLDO) Survey," [Online]. Available: https://github.com/mgseok/DLDO-survey
