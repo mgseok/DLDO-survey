@@ -39,10 +39,10 @@ Mingoo Seok: ms4415@columbia.edu
 |	Output voltage error [mV]	|	Verror	|	Maximum output voltage deviation from Vref in the steady-state load and line condition. Typically larger of Vripple/2 or Vdz/2	|
 |	Output voltage temperature coefficient	|	TC	|	Output voltage drift over temperature variation	|
 |	Current Density [mA/mm^2]	|	current density	|	Max load current/Active & passive area	|
-|	Load-regulation FoM 1 [ps]	|	ps-FoM	|	([Cout * dVout]/dIload)*(Iq/dIload), smaller FoM is better	|
+|	Load-regulation FoM 1 [ps]	|	ps-FoM	|	([Cout * dVout]/dIload) * (Iq/dIload), smaller FoM is better	|
 |	Load-regulation FoM 2 [pF]	|	pF-FoM	|	(dVout/[Vout * dIload]) * (Cout*Iq), smaller FoM is better	|
-|	Load-regulation FoM 3 [edge-adj ps]	|	edge-adj ps-FoM	|	([Cout * dVout]/dIload+0.5*Tedge)*(Iq/dIload), smaller FoM is better	|
-|	Load-regulation FoM 4 [pC]	|	pC-FoM	|	([Cout * dVout]/dIload+0.5*Tedge)*Iq, smaller FoM is better	|
+|	Load-regulation FoM 3 [edge-adj ps]	|	edge-adj ps-FoM	|	([Cout * dVout]/dIload + 0.5*tedge) * (Iq/dIload), smaller FoM is better	|
+|	Load-regulation FoM 4 [pC]	|	pC-FoM	|	([Cout * dVout]/dIload + 0.5*tedge) * Iq, smaller FoM is better	|
 
 
 
