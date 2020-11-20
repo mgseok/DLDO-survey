@@ -19,7 +19,7 @@ Mingoo Seok: ms4415@columbia.edu
 | Input voltage [V] | Vin	| Supply voltage to an LDO (used in dynamic load regulation test) |
 | Output voltage [V] | Vout | Output voltage of an LDO (used in dynamic load regulation test) |
 | Output reference voltage [V] | Vref | The set point of the output voltage of an LDO |
-| Dropout voltage [V] | Vdropout | Voltage drop from input voltage to output voltage (Vin-Vout) |
+| Dropout voltage [V] | Vdropout | Voltage drop from input voltage to output voltage (Vdropout = Vin-Vout) |
 | Voltage droop [V] | Vdroop | Vout's maximum downward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload) |
 | Voltage overshoot [V] | Vovershoot | Vout's maximum upward deviation from output reference voltage (Vref) when the load current changes by its maximum (tested) load current change (dIload) |
 | Max load current [mA]	| Iload,max	| Maximum load current that an LDO can support under the output voltage error (Verror) constraints |
@@ -31,7 +31,7 @@ Mingoo Seok: ms4415@columbia.edu
 |	Settling time (overshoot) [ns]	|	tsettle,overshoot	|	Time to take for Vout to settle within less than a small % of Vref for voltage overshoot	|
 |	Quiescent current [uA]	|	Iq	|	Current draw of an LDO when it supports steady-state load current	|
 |	Peak current efficiency 	|	CEpeak	|	Iload,max/(Iload,max+Iq)	|
-|	Peak power efficiency	|	PEpeak	|	(Vout*Iload,max)/(Vin*(Iload,max+Iq))	|
+|	Peak power efficiency	|	PEpeak	|	(Vout * Iload,max)/(Vin * [Iload,max+Iq])	|
 |	PSRR [dB]	|	PSRR	|	The ratio of output voltage change to input voltage change, 20*log(dVout/dVin)	|
 |	Power-FET unit current [nA]	|	Iu	|	Unit current in the power-FET array	|
 |	Output ripple voltage	|	Vripple	|	Output ripple size	|
