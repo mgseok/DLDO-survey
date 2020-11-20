@@ -46,7 +46,7 @@ Load-regulation FoM 3 [edge-adj ps]				edge-adj ps-FoM				([Cout*dVout]/dIload+0
 Load-regulation FoM 4 [pC]					pC-FoM					([Cout*dVout]/dIload+0.5*Tedge)*Iq, smaller FoM is better
 
 
-*Please contact to report any errors:
-Zhaoqing Wang: zw2711@columbia.edu
-Sung Justin Kim: sjk2206@columbia.edu
-Mingoo Seok: ms4415@columbia.edu
+*Please contact to report any errors:  
+Zhaoqing Wang: zw2711@columbia.edu  
+Sung Justin Kim: sjk2206@columbia.edu  
+Mingoo Seok: ms4415@columbia.edu  
